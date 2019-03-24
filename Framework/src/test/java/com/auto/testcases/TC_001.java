@@ -11,7 +11,7 @@ public class TC_001 extends BaseTestCase{
 	@Test
 	public void TestCase()
 	{
-		logger = report.createTest("Login to CRM1");
+		logger = report.createTest("Login to CRM");
 		
 		LoginPage loginPage = new LoginPage(driver);
 		
