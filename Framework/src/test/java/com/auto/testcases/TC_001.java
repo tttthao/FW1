@@ -15,7 +15,7 @@ public class TC_001 extends BaseTestCase{
 		
 		LoginPage loginPage = new LoginPage(driver);
 		
-		logger.info("Starting Application: Login 123678");
+		logger.info("Starting Application: Login 12367889");
 		
 		loginPage.loginToCRM(CommonData.USER1, CommonData.PASSWORD1);
 		
